@@ -36,6 +36,15 @@ importers:
 
   packages/app:
     dependencies:
+      '@nextjs-utils/cache':
+        specifier: workspace:*
+        version: link:../libs/cache
+      '@nextjs-utils/cron':
+        specifier: workspace:*
+        version: link:../libs/cron
+      '@nextjs-utils/fetch':
+        specifier: workspace:*
+        version: link:../libs/fetch
       '@types/node':
         specifier: ^20.2.5
         version: 20.2.5

@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextjs-utils/cache": "workspace:*",
+    "@nextjs-utils/cron": "workspace:*",
+    "@nextjs-utils/fetch": "workspace:*",
     "@types/node": "^20.2.5",
     "@types/react": "^18.2.9",
     "@types/react-dom": "^18.2.4",
