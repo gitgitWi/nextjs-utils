@@ -27,8 +27,7 @@
     "format": "prettier --write ./ --config .prettierrc",
     "clean": "turbo run clean && rm -rf node_modules && rm -rf .pnpm-store",
     "clean:build": "turbo run clean:build",
-    "preinstall": "corepack enable && corepack prepare pnpm@latest --activate && npx only-allow pnpm",
-    "prebuild": "npx only-allow pnpm",
+    "preinstall": "corepack enable && corepack prepare pnpm@latest --activate",
     "build": "turbo run build"
   },
   "devDependencies": {
