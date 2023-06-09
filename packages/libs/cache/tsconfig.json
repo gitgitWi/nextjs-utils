@@ -1,0 +1,13 @@
+{
+  "extends": "../../../tsconfig.json",
+  "compilerOptions": {
+    "incremental": true,
+    "target": "ES2021",
+    "module": "ESNext",
+    "declaration": true,
+    "outDir": "./out",
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "baseUrl": "./src"
+  }
+}
